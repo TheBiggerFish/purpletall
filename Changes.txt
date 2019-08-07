@@ -1,0 +1,5 @@
+Edits to make:
+    Rebuild client
+    Fix file structure
+    Change config files to json
+    Rebuild unit tests

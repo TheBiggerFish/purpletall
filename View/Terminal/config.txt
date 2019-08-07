@@ -1,3 +1,0 @@
-host=lamport.cs.longwood.edu
-port=5000
-pull interval=3
