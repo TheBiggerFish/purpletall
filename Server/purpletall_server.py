@@ -2,12 +2,10 @@ from flask import Flask, request, g, redirect, escape, render_template
 from git import Git
 import psycopg2, psycopg2.extras, time, requests, json, smtplib, re
 
-#TODO *maybe* IMPLEMENT CONFIG FILE LOADING
 db = ''
 dbuser = ''
 dbpass = ''
 dbhost = ''
-
 
 def read_config():
         global db

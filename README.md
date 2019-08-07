@@ -20,28 +20,28 @@ Contributers to Model:
 
 
 Setup Server:
-1) Copy server to host computer
+1) Copy server file to host computer
 2) Have a postgres database in place
-3) Run: psql -h (host) -U username -f sql.input
+3) Run: psql -h (host) -U username -f dbSetup.psql
 	Log in with password
 4) Edit config file to direct towards postgres database
 
 
-Setup Client:
-1) Copy client to client computer
+Setup Terminal Client:
+1) Copy client file to client computer
 2) Edit config to direct towards host computer
 	Also supports changing how often server refreshes
 
 How to use:
-1) Start the controller:
-	python3 controller.py
+1) Start the server:
+	python3 purpletall_server.py
 ----Using the terminal----
 2) Open another Terminal.
 3) Start the view:
-	python3 curses_console.py
+	python3 purpletall_client.py
 ----Using the web----
 2)Using the website:
-    open your browser (in the lab)
+    Open your browser (in the lab)
 	Enter the host url where the server is located 
 
 
