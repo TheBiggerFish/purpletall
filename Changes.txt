@@ -1,5 +1,11 @@
 Edits to make:
-    Rebuild client
-    Fix file structure
+    Rebuild curses client
+    Fix file structure of repo
     Change config files to json
     Rebuild unit tests
+    Use a RESTful API for server
+        Get -> retrieve information
+        Post -> submit information with unknown path
+        Put -> submit information with known path/replace
+        Patch -> update part of a piece of information
+        Delete -> delete information
